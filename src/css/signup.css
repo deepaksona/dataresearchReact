@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+@import url('https://fonts.googleapis.com/css?family=SF Pro Display');
+
+.mainContainer {
+   background-color: #E9FBFF;
+   display: flex;
+   height: 100vh;
+   width: 100vw;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+}
+.bubble {
+   position: absolute;
+   top: 0px;
+   right: 20px;
+   height: 250px;
+   width: 250px;
+}
+.dot {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   width: 250px;
+}
+.textfield {
+   height: 35px;
+   width: 570px;
+   border-radius: 8px;
+   justify-items: center;
+   padding: 0px 10px;
+   font-size: 12px;
+   background-color: #E9FBFF;
+   border-color: #003C49;
+   border-width: 1.5px;
+   border-style: groove;
+}
+
+.signUpHeading {
+   font-size: 50px;
+   font-weight: 600;
+   color: #003C49;
+   font-family: 'SF Pro Display', sans-serif;
+   margin-bottom: 30px;
+}
+
+.title {
+   width: 585px;
+   font-size: 16px;
+   font-weight: 700;
+   color: #003C49;
+   text-align: left;
+   display: block;
+   margin-top: 20px;
+   margin-bottom: 5px;
+   font-family: 'Inter', sans-serif;
+}
+
+.div-button {
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   margin-top: 30px;
+   height: 40px;
+   width: 590px;
+   display: flex;
+   border-radius: 8px;
+   border: 1.5px solid #003C49;
+   background-color: #E9FBFF;
+   cursor: pointer;
+}
+
+.login-button {
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   margin-top: 30px;
+   height: 40px;
+   width: 590px;
+   display: flex;
+   border-radius: 8px;
+   background: linear-gradient(to right, #0083A0, #003C49);
+   cursor: pointer;
+}
+.google {
+   height: 30px;
+   width: 30px;
+   margin-right: 20px;
+}
+.button-font {
+   font-size: 20px;
+   color: #003C49;
+   font-weight: 700;
+   font-family: 'SF Pro Display', sans-serif;
+}
+.button-font-white {
+   font-size: 20px;
+   color: #FFFFFF;
+   font-weight: 700;
+   font-family: 'SF Pro Display', sans-serif;
+}
+.account-message{
+   margin-top: 10px;
+}
+
+
+.question-text{
+   font-size: 18px;
+   color:#0083A0 ;
+}
+.question-text-button{
+   font-size: 18px;
+   color:#003C49 ;
+   font-weight: 700;
+   cursor: pointer;
+   text-decoration: underline;
+   user-select: none;
+   
+}
